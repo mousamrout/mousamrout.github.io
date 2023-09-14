@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"> <!-- Specify UTF-8 encoding -->
+    <meta charset="UTF-8">
     <title>ITISHREE WEBSITE</title>
+    <style>
+        .jumbotron {
+            text-align: center;
+        }
+        
+        .header {
+            text-align: center;
+            font-size: 24px;
+        }
+        
+        .user-pass {
+            text-align: right;
+            margin-right: 20px;
+        }
+        
+        .table-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
 
     <div class="jumbotron">
-		<h1>ITISHREE  💜 WEBSITE </h1>
+        <h1>ITISHREE 💜 WEBSITE</h1>
     </div>
 
-    <form>
-        <label for="username">Enter username:</label>
-        <input type="text" id="username" name="username"><br>
+    <div class="header">
+        <h2>Student Details</h2>
+    </div>
 
-        <label for="password">Enter password:</label>
-        <input type="password" id="password" name="password"><br>
-
+    <div class="user-pass">
+        <label for="username">User:</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="password">Pass:</label>
+        <input type="password" id="password" name="password">
+        <br>
         <input type="submit" value="Submit Now">
         <input type="reset" value="Clear All">
-    </form>
+    </div>
 
-    <label>Student Details</label>
-    <br>
+    <div class="table-link">
+        <a href="student.html">Go to Student Page</a>
+    </div>
+
     <table border="2">
         <tr>
             <th>Roll No</th>
@@ -32,12 +68,11 @@
             <td>101</td>
             <td>Sai</td>
         </tr>
-		        <tr>
+        <tr>
             <td>102</td>
             <td>Guddu</td>
         </tr>
-		        </tr>
-		        <tr>
+        <tr>
             <td>103</td>
             <td>Priya</td>
         </tr>
